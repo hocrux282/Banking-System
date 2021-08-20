@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecing</title>
+</head>
+<style>
+    h1 {
+        text-align: center;
+        font-size: 50px;
+        color: red;
+    }
+
+
+    h2,
+    h3,
+    p {
+        text-align: center;
+
+    }
+</style>
+
+<body>
+
+
+    <h1> Transfer Successfull</h1>
+    <h2> Redirecting......</h2>
+    <h3> Please Wait</h3>
+    <p> This may take several Seconds</p>
+    <script>
+        setTimeout(function () {
+            window.location.href = "customer.php";
+        }, 10000);
+    </script>
+    <div style="display: flex;justify-content: center;align-items: center;height: 100%;">
+        <img src="loader.gif.gif"> </img>
+    </div>
+</body>
+
+</html>
